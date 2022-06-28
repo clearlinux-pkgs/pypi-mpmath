@@ -4,7 +4,7 @@
 #
 Name     : pypi-mpmath
 Version  : 1.2.1
-Release  : 29
+Release  : 30
 URL      : https://files.pythonhosted.org/packages/95/ba/7384cb4db4ed474d4582944053549e02ec25da630810e4a23454bc9fa617/mpmath-1.2.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/95/ba/7384cb4db4ed474d4582944053549e02ec25da630810e4a23454bc9fa617/mpmath-1.2.1.tar.gz
 Summary  : Python library for arbitrary-precision floating-point arithmetic
@@ -59,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1653344852
+export SOURCE_DATE_EPOCH=1656389153
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
@@ -94,7 +94,7 @@ export FCFLAGS="$FCFLAGS -m64 -march=x86-64-v3 "
 export LDFLAGS="$LDFLAGS -m64 -march=x86-64-v3 "
 python3 -tt setup.py build install --root=%{buildroot}-v3
 popd
-/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot}/usr/share/clear/optimized-elf/ %{buildroot}/usr/share/clear/filemap/filemap-%{name}
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
