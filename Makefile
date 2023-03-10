@@ -1,5 +1,5 @@
 PKG_NAME := pypi-mpmath
-URL = https://files.pythonhosted.org/packages/95/ba/7384cb4db4ed474d4582944053549e02ec25da630810e4a23454bc9fa617/mpmath-1.2.1.tar.gz
+URL = https://files.pythonhosted.org/packages/e0/47/dd32fa426cc72114383ac549964eecb20ecfd886d1e5ccf5340b55b02f57/mpmath-1.3.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
