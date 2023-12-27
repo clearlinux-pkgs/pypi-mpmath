@@ -4,7 +4,7 @@
 #
 Name     : pypi-mpmath
 Version  : 1.3.0
-Release  : 40
+Release  : 41
 URL      : https://files.pythonhosted.org/packages/e0/47/dd32fa426cc72114383ac549964eecb20ecfd886d1e5ccf5340b55b02f57/mpmath-1.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e0/47/dd32fa426cc72114383ac549964eecb20ecfd886d1e5ccf5340b55b02f57/mpmath-1.3.0.tar.gz
 Summary  : Python library for arbitrary-precision floating-point arithmetic
